@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="stepdefinations.OnlineGroceryStoreTests">
+        <methods>
+          <include name="retrieveOrderDetailsTest"/>
+          <include name="testUserRegistration"/>
+          <include name="addNewProductTest"/>
+          <include name="filterProductsByCategoryTest"/>
+          <include name="placeNewOrderTest"/>
+          <include name="setup"/>
+          <include name="deleteUserAccountTest"/>
+          <include name="searchProductsByNameTest"/>
+          <include name="userLoginTest"/>
+          <include name="retrieveProductDetailsTest"/>
+          <include name="updateUserProfileTest"/>
+        </methods>
+      </class> <!-- stepdefinations.OnlineGroceryStoreTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
